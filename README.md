@@ -1,5 +1,7 @@
 # Email Generator Bot
 
+[![DataImpulse](https://app.dataimpulse.com/assets/images/referral-banner.png)](https://dataimpulse.com/?aff=43293)
+
 This bot generates a specified number of email addresses using the `mail.tm` API and saves them into two separate files.
 
 ## Prerequisites
@@ -32,6 +34,10 @@ This bot generates a specified number of email addresses using the `mail.tm` API
    - Enter a reason for creating the emails (this will be used in the folder name).
    - Enter the number of threads to use (e.g., 10). This will determine how many emails are created concurrently.
 
+## Proxy Usage
+
+This script is configured to use proxies from DataImpulse to allow for the creation of a large number of emails without being rate-limited.
+
 ## Output
 
 The script will create a new folder named `YYYY-MM-DD_reason` (e.g., `2023-10-27_test_run`). Inside this folder, you will find two files:
@@ -48,7 +54,3 @@ The `stats.json` file tracks the number of emails created over time. It contains
 - `lifetime_total`: The total number of emails created since the script was first run.
 - `today_total`: The number of emails created on the current day.
 - `last_run_date`: The date of the last run.
-
-## Affiliate
-
-[![DataImpulse](https://app.dataimpulse.com/assets/images/referral-banner.png)](YOUR_AFFILIATE_LINK_HERE)
