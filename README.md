@@ -48,3 +48,7 @@ The `stats.json` file tracks the number of emails created over time. It contains
 - `lifetime_total`: The total number of emails created since the script was first run.
 - `today_total`: The number of emails created on the current day.
 - `last_run_date`: The date of the last run.
+
+## Affiliate
+
+[![DataImpulse](https://app.dataimpulse.com/assets/images/referral-banner.png)](YOUR_AFFILIATE_LINK_HERE)
